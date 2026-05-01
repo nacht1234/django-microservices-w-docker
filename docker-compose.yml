@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  user_service:
+    build: ./user_service
+    ports:
+      - "8001:8000"
+
+  product_service:
+    build: ./product_service
+    ports:
+      - "8002:8000"
