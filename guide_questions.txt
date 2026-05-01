@@ -1,0 +1,20 @@
+GUIDE QUESTIONS
+1. How does Django support microservices?
+    - Django can expose REST APIs 
+    - Each Django app can run as an independent service
+    - Lightweight endpoints using views
+
+2. What advantages do containers provide for Django deployment?
+    - Consistent environment
+    - Easy deployment
+    - Isolation of services
+    -Scalable
+
+3. How would you enable service-to-service communication?
+    - Use HTTP requests/REST API
+
+4. How can this setup be scaled using Kubernetes?
+    - Deploy each service as a Pod
+    - Use ReplicaSets for scaling
+    - Use Services for communication
+    - Add Load Balancer
